@@ -1,0 +1,101 @@
+﻿@model IEnumerable<OnlineCakeShop.Models.CustomCake>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Chocolate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Peanuts)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apples)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Raspberries)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WhippedCream)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Snickers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Coconut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cookies)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cherry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Strawberries)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vanilla)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Chocolate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Peanuts)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apples)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Raspberries)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WhippedCream)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Snickers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Coconut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cookies)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cherry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Strawberries)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vanilla)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CustomCakeId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CustomCakeId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CustomCakeId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

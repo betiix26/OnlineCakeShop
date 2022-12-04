@@ -1,0 +1,90 @@
+﻿@model OnlineCakeShop.Models.CustomCake
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>CustomCake</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Chocolate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Chocolate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Peanuts)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Peanuts)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Apples)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Apples)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Raspberries)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Raspberries)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WhippedCream)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WhippedCream)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Snickers)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Snickers)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Coconut)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Coconut)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cookies)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cookies)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cherry)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cherry)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Strawberries)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Strawberries)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Vanilla)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Vanilla)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.CustomCakeId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
