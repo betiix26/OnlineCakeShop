@@ -4,11 +4,26 @@
     ViewData["Title"] = "Index";
 }
 
+
 <h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<br>
+<br>
+<input id="myInput" type="text" placeholder="Search... " style="
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 3px solid yellow;
+        border-radius: 4px;
+        background-color: #1d1d1d;
+        color: white;
+">
+<br>
+<br>
 <table class="table">
     <thead>
         <tr>
@@ -33,7 +48,7 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="myTable">
 @foreach (var item in Model) {
         <tr>
             <td>
