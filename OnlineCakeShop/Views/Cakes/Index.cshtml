@@ -4,6 +4,19 @@
     ViewData["Title"] = "Index";
 }
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"> 
+</script >
+
+<script >
+    $(document).ready(function(){
+      $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+</script>
 
 <h1>Index</h1>
 
@@ -74,6 +87,11 @@
                 <a asp-action="Details" asp-route-id="@item.CakeId">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.CakeId">Delete</a>
             </td>
+                <td>
+
+                 <button type="button" onclick="location.href='@Url.Action("Index","Carts")'">Add to cart </button>
+
+                </td>
         </tr>
 }
     </tbody>

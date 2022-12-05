@@ -7,8 +7,8 @@ namespace OnlineCakeShop.Models
         [Key]
         public int CartId { get; set; }
 
+        public int? QuantityId { get; set; }
+        public Quantity? Quantity { get; set; }
         public virtual ICollection<Cake>? Cakes { get; set; }
-
-        public virtual ICollection<Quantity>? Quantities{ get; set; }
     }
 }
