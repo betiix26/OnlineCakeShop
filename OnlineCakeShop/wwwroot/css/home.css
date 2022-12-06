@@ -1,0 +1,71 @@
+﻿body {
+    background-color: #1d1d1d;
+    background-image: url("/images/fundal1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.changeAttr {
+    max-height: 400px;
+    max-width: 900px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.carousel-inner {
+    justify-content: center;
+}
+
+.carousel-caption {
+    /*background-color: #000000b3;*/
+    background-color: black;
+    color: #ececff;
+    top: auto;
+    bottom: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.divBooks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style: none;
+}
+
+.imgBooks {
+    visibility: visible;
+    height: 350px;
+    width: 375px;
+    margin: 0.625rem;
+    padding: 0px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+img.imgBooks:hover {
+    transform: scale(1.05);
+}
+
+.imgBox {
+    border: 5px;
+    margin: 2.5rem;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.info-style-title {
+    text-align: center;
+    font-size: 0.625rem;
+    font-weight: bold;
+}
+
+.info-style-author {
+    text-align: center;
+    font-size: 5px;
+    font-style: italic;
+}

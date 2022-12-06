@@ -16,3 +16,23 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.cakeLogo {
+    width: 60px;
+    height: 50px;
+}
+/*
+#nav{
+    background-color: #f99ac6db;
+}
+*/
+.navbar-brand {
+    /*background-color: #4382ec64;*/
+    background: linear-gradient(180deg, rgb(222, 157, 250) 0%, rgb(230, 102, 190) 35%, rgb(105, 164, 253) 100%);
+}
+.navbar-nav {
+    /*background-color: #ac82f064;*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(97, 131, 233) 0%, rgb(189, 129, 249) 35%, rgba(0,212,255,1) 100%);
+}
+

@@ -5,12 +5,88 @@
       "PackagePath": "staticwebassets\\OnlineCakeShop.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\Style.css",
+      "PackagePath": "staticwebassets\\css\\Style.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\bkg1.jpg",
+      "PackagePath": "staticwebassets\\images\\bkg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\c2.jpg",
+      "PackagePath": "staticwebassets\\images\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\cake.jpg",
+      "PackagePath": "staticwebassets\\images\\cake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\cake1.jpg",
+      "PackagePath": "staticwebassets\\images\\cake1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\cake2.jpg",
+      "PackagePath": "staticwebassets\\images\\cake2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\chocolatecake.jpeg",
+      "PackagePath": "staticwebassets\\images\\chocolatecake.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\cupcake.jpg",
+      "PackagePath": "staticwebassets\\images\\cupcake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\cupcake1.jpg",
+      "PackagePath": "staticwebassets\\images\\cupcake1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\cupcake2.jpg",
+      "PackagePath": "staticwebassets\\images\\cupcake2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal1.jpg",
+      "PackagePath": "staticwebassets\\images\\fundal1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal2.jpg",
+      "PackagePath": "staticwebassets\\images\\fundal2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\home1.jpg",
+      "PackagePath": "staticwebassets\\images\\home1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\home2.jpg",
+      "PackagePath": "staticwebassets\\images\\home2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\home3.jpg",
+      "PackagePath": "staticwebassets\\images\\home3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\home4.jpg",
+      "PackagePath": "staticwebassets\\images\\home4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\tort.jpeg",
+      "PackagePath": "staticwebassets\\images\\tort.jpeg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\js\\site.js",

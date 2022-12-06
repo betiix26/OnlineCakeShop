@@ -5,6 +5,7 @@
 }
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"> 
+
 </script >
 
 <script >
@@ -30,7 +31,7 @@
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
-        border: 3px solid yellow;
+        border: #373373;
         border-radius: 4px;
         background-color: #1d1d1d;
         color: white;
@@ -74,7 +75,7 @@
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
-                    <img class="rounded-circle" src="@item.Image" style="max-width:150px" />
+                    <img class="rounded-circle" src="@item.Image" style="max-width:200px" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Date)
