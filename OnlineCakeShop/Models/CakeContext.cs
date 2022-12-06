@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System.Security.AccessControl;
 
 namespace OnlineCakeShop.Models
 {
-    public class CakeContext : DbContext
+    public class CakeContext : IdentityDbContext<IdentityUser>
     {
         public CakeContext(DbContextOptions<CakeContext> options)
            : base(options)
