@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

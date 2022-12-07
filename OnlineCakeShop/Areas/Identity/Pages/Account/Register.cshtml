@@ -3,9 +3,11 @@
 @{
     ViewData["Title"] = "Register";
 }
-
+<link rel="stylesheet" href="~/css/register.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
 <h1>@ViewData["Title"]</h1>
 
+@*<p class=contTitle>Be one of our customers!</p>*@
 <div class="row">
     <div class="col-md-4">
         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
@@ -27,22 +29,32 @@
                 <label asp-for="Input.ConfirmPassword"></label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
-            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+            @*<button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register </button>*@
+            <div class="form-group">
+                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary" onclick="register()">Register</button>
+            </div>
+            <script>
+                function register() {
+                    alert("Successfully Registered!");
+                }
+            </script>
         </form>
     </div>
     <div class="col-md-6 col-md-offset-2">
         <section>
-            <h3>Use another service to register.</h3>
+            @*<h3>Use another service to register.</h3>*@
             <hr />
             @{
                 if ((Model.ExternalLogins?.Count ?? 0) == 0)
                 {
-                    <div>
-                        <p>
-                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
-                            about setting up this ASP.NET application to support logging in via external services</a>.
-                        </p>
-                    </div>
+                    //<div>
+                    //    <p>
+                    //        There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+                    //            article
+                    //            about setting up this ASP.NET application to support logging in via external services
+                    //        </a>.
+                    //    </p>
+                    //</div>
                 }
                 else
                 {
