@@ -47,6 +47,10 @@ namespace OnlineCakeShop.Controllers
         {
             return View();
         }
+        public IActionResult About()
+        {
+            return View();
+        }
 
         // POST: Contacts/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.

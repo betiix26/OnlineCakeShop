@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\css\\Style.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
@@ -57,12 +65,32 @@
       "PackagePath": "staticwebassets\\images\\cupcake2.jpg"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal.jpg",
+      "PackagePath": "staticwebassets\\images\\fundal.jpg"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal1.jpg",
       "PackagePath": "staticwebassets\\images\\fundal1.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal2.jpg",
       "PackagePath": "staticwebassets\\images\\fundal2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal3.jpg",
+      "PackagePath": "staticwebassets\\images\\fundal3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal4.jpg",
+      "PackagePath": "staticwebassets\\images\\fundal4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal5.jpg",
+      "PackagePath": "staticwebassets\\images\\fundal5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\fundal6.jpg",
+      "PackagePath": "staticwebassets\\images\\fundal6.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\images\\home1.jpg",

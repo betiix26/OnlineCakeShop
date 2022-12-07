@@ -1,0 +1,183 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Helvetica,"Times New Roman";
+    color: black;
+    text-align: center;
+}
+h4 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    background-color: whitesmoke;
+    background-position: center center;
+    position: relative;
+}
+
+.logo {
+    float: left;
+}
+
+    .logo img {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+    input:hover, textarea:hover,
+    input:focus, textarea:focus {
+        background-color: white;
+    }
+
+.box, .col-md-4 {
+    width: 320px;
+    height: 380px;
+    background-color: rgba(79, 10, 48, 0.336);
+    color: #fff;
+    position: absolute;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 350%;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.col-md-4 {
+    width: 460px;
+    height: 480px;
+    margin: 66px 0px;
+}
+
+#row {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+}
+
+#col-md-4 {
+    background: rgba(79, 10, 48, 0.336);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -260px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    background-color: white;
+}
+
+#btn btn-primary {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    float: left;
+    width: 100%;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 300;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #00072e;
+    border-color: #000;
+    align-items: center;
+}
+
+#btn btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.submit:hover {
+    color: #3498db;
+}
+
+.submit {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+    .submit:hover .ease {
+        width: 100%;
+        background-color: white;
+    }
+
+contentText {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.container {
+    color: black;
+}
+

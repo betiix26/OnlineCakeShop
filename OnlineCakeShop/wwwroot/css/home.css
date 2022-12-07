@@ -69,3 +69,8 @@ img.imgBooks:hover {
     font-size: 5px;
     font-style: italic;
 }
+
+p {
+    text-indent: 50px;
+    color: black;
+}

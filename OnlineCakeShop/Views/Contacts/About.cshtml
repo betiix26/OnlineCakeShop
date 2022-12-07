@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "ABOUT US";
+}
+<h1>@ViewData["Title"]</h1>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/about.css"> 
+    <link rel="stylesheet" href="~/css/site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+<div class="welcome-text">
+ <div class="box">
+            <p>Swing by The Cake Shop and grab something sweet. We have a large variety of desserts and breakfast items. You can take your treats to go, or have a seat in our charming shop.</p>
+
+<p>
+                The Cake Shop also offers a wide variety of gifts and home accessories for any occasion. Whether it’s a co-workers retirement party or your child’s special day, we have the gifts to fit your needs.
+            </p>
+            <p>You can also find us on social networks or at the location below. </p>
+
+ 
+  @*<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+  <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>*@
+  <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+  
+  </div>
+    </div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.0574171509325!2d23.832891415272965!3d44.30877011780959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d702cd0f3173%3A0xb159446a3e899375!2sFacultatea%20de%20Automatic%C4%83%2C%20Calculatoare%20%C8%99i%20Electronic%C4%83!5e0!3m2!1sro!2sro!4v1670420238730!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <style>
+                .mapouter {
+                    text-align: center;
+                    heiht: 400px;
+                    width: 100%;
+                }
+            </style>
+            
+        </div>
+    </div>
+@*<div class="slider">
+    <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slide first">
+            <img src="~/images/tort.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="~/images/cupcake.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="~/images/c2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="~/images/chocolatecake.jpeg" alt="">
+        </div>
+
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+    </div>
+
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+
+</div>*@
+
+@*
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter >4){
+            counter = 1;
+        }
+    }, 5000);
+</script>*@
+</body>
+</html>
