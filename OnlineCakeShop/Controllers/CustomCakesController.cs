@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +11,7 @@ using OnlineCakeShop.Models;
 
 namespace OnlineCakeShop.Controllers
 {
+    [Authorize(Roles = "Administrator")]
     public class CustomCakesController : Controller
     {
         private readonly CakeContext _context;
@@ -19,11 +22,13 @@ namespace OnlineCakeShop.Controllers
         }
 
         // GET: CustomCakes
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Index()
         {
               return View(await _context.CustomCakes.ToListAsync());
         }
 
+        
         // GET: CustomCakes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -42,6 +47,7 @@ namespace OnlineCakeShop.Controllers
             return View(customCake);
         }
 
+        [AllowAnonymous]
         // GET: CustomCakes/Create
         public IActionResult Create()
         {
@@ -53,6 +59,7 @@ namespace OnlineCakeShop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([Bind("CustomCakeId,Chocolate,Peanuts,Apples,Raspberries,WhippedCream,Snickers,Coconut,Cookies,Cherry,Strawberries,Vanilla,Price")] CustomCake customCake)
         {
             if (ModelState.IsValid)
@@ -64,6 +71,7 @@ namespace OnlineCakeShop.Controllers
             return View(customCake);
         }
 
+        [Authorize(Roles = "Administrator")]
         // GET: CustomCakes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -85,6 +93,7 @@ namespace OnlineCakeShop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(int id, [Bind("CustomCakeId,Chocolate,Peanuts,Apples,Raspberries,WhippedCream,Snickers,Coconut,Cookies,Cherry,Strawberries,Vanilla,Price")] CustomCake customCake)
         {
             if (id != customCake.CustomCakeId)
@@ -116,6 +125,7 @@ namespace OnlineCakeShop.Controllers
         }
 
         // GET: CustomCakes/Delete/5
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.CustomCakes == null)
@@ -136,6 +146,7 @@ namespace OnlineCakeShop.Controllers
         // POST: CustomCakes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.CustomCakes == null)

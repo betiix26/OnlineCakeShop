@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +11,7 @@ using OnlineCakeShop.Models;
 
 namespace OnlineCakeShop.Controllers
 {
+    [Authorize(Roles = "Administrator")]
     public class CartsController : Controller
     {
         private readonly CakeContext _context;
@@ -18,6 +21,7 @@ namespace OnlineCakeShop.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         // GET: Carts
         public async Task<IActionResult> Index()
         {
@@ -64,6 +68,7 @@ namespace OnlineCakeShop.Controllers
             return View(cart);
         }
 
+        
         // GET: Carts/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -114,7 +119,7 @@ namespace OnlineCakeShop.Controllers
             }
             return View(cart);
         }
-
+       
         // GET: Carts/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

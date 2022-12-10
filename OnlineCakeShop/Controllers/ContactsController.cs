@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +11,7 @@ using OnlineCakeShop.Models;
 
 namespace OnlineCakeShop.Controllers
 {
+    [Authorize(Roles = "Administrator")]
     public class ContactsController : Controller
     {
         private readonly CakeContext _context;
@@ -42,11 +45,13 @@ namespace OnlineCakeShop.Controllers
             return View(contact);
         }
 
+        [AllowAnonymous]
         // GET: Contacts/Create
         public IActionResult Create()
         {
             return View();
         }
+        [AllowAnonymous]
         public IActionResult About()
         {
             return View();
