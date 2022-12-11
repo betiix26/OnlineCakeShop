@@ -21,9 +21,13 @@
 
 <h1>Index</h1>
 
+@if (User.IsInRole("Administrator"))
+{
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+}
+
 
 <br>
 <br>
@@ -84,9 +88,19 @@
                 @Html.DisplayFor(modelItem => item.Category.CategoryId)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.CakeId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CakeId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CakeId">Delete</a>
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.CakeId">Edit</a> 
+                    }
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <a asp-action="Details" asp-route-id="@item.CakeId">Details</a> 
+                    }
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.CakeId">Delete</a>
+                    }
+                    
             </td>
                 <td>
 

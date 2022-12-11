@@ -11,7 +11,7 @@ using OnlineCakeShop.Models;
 
 namespace OnlineCakeShop.Controllers
 {
-    [Authorize(Roles = "Administrator")]
+    [Authorize(Roles = "Administrator, User")]
     public class CartsController : Controller
     {
         private readonly CakeContext _context;
@@ -21,7 +21,7 @@ namespace OnlineCakeShop.Controllers
             _context = context;
         }
 
-        [AllowAnonymous]
+       
         // GET: Carts
         public async Task<IActionResult> Index()
         {
