@@ -61,7 +61,7 @@ namespace OnlineCakeShop.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Cakes");
+                    b.ToTable("Cakes", (string)null);
                 });
 
             modelBuilder.Entity("OnlineCakeShop.Models.Cart", b =>
@@ -74,7 +74,7 @@ namespace OnlineCakeShop.Migrations
 
                     b.HasKey("CartId");
 
-                    b.ToTable("Carts");
+                    b.ToTable("Carts", (string)null);
                 });
 
             modelBuilder.Entity("OnlineCakeShop.Models.Category", b =>
@@ -90,7 +90,7 @@ namespace OnlineCakeShop.Migrations
 
                     b.HasKey("CategoryId");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("OnlineCakeShop.Models.Contact", b =>
@@ -109,7 +109,7 @@ namespace OnlineCakeShop.Migrations
 
                     b.HasKey("ContactId");
 
-                    b.ToTable("Contacts");
+                    b.ToTable("Contacts", (string)null);
                 });
 
             modelBuilder.Entity("OnlineCakeShop.Models.CustomCake", b =>
@@ -158,7 +158,7 @@ namespace OnlineCakeShop.Migrations
 
                     b.HasKey("CustomCakeId");
 
-                    b.ToTable("CustomCakes");
+                    b.ToTable("CustomCakes", (string)null);
                 });
 
             modelBuilder.Entity("OnlineCakeShop.Models.Order", b =>
@@ -174,7 +174,7 @@ namespace OnlineCakeShop.Migrations
 
                     b.HasKey("OrderId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("OnlineCakeShop.Models.Quantity", b =>
@@ -210,7 +210,7 @@ namespace OnlineCakeShop.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("Quantities");
+                    b.ToTable("Quantities", (string)null);
                 });
 
             modelBuilder.Entity("OnlineCakeShop.Models.Review", b =>
@@ -234,7 +234,7 @@ namespace OnlineCakeShop.Migrations
 
                     b.HasIndex("CakeId");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", (string)null);
                 });
 
             modelBuilder.Entity("OnlineCakeShop.Models.Cake", b =>

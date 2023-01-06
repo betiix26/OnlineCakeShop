@@ -1,0 +1,57 @@
+﻿@*@model IEnumerable<OnlineCakeShop.Models.Payment>
+*@
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/payment.css">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <p>PaymentId</p>
+            </th>
+            <th></th>
+            <th>
+                <p>PaymentType</p>
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+       
+            <tr>
+                <td>
+                    <p>1</p>
+                <td>
+                <td>
+                    <p>Cash</p>
+            <td>
+
+                <button type="button" onclick="location.href='@Url.Action("Index","Orders")'">Choose and Order now </button>
+
+            </td>
+            </tr>
+        
+    </tbody>
+    <tbody>
+
+        <tr>
+            <td>
+                <p>2</p>
+            <td>
+            <td>
+                <p>Card</p>
+                 <td>
+
+                <button type="button" onclick="location.href='@Url.Action("Create","Orders")'">Choose and Order now </button>
+
+                </td>
+        </tr>
+
+    </tbody>
+</table>
+@*<div>
+    <a asp-area="" asp-controller="Tickets" asp-action="Create">Back to list</a>
+</div>*@
+

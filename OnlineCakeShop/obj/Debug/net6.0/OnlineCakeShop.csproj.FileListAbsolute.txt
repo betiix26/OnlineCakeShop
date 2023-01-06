@@ -325,3 +325,4 @@ C:\Users\ASUS\Documents\GitHub\OnlineCakeShop\OnlineCakeShop\bin\Debug\net6.0\zh
 C:\Users\ASUS\Documents\GitHub\OnlineCakeShop\OnlineCakeShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ASUS\Documents\GitHub\OnlineCakeShop\OnlineCakeShop\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\ASUS\Documents\GitHub\OnlineCakeShop\OnlineCakeShop\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\ASUS\Documents\GitHub\OnlineCakeShop\OnlineCakeShop\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll

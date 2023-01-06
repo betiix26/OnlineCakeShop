@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IMAuN9nCx9cI/Bui3B2s5p3DRWYwfMeptx4olmDlz58=",
+  "Hash": "0BmDITOHiJFznRQw5Umjd7+GCcvJj/dZVUWW4YTc61c=",
   "Source": "OnlineCakeShop",
   "BasePath": "_content/OnlineCakeShop",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\payment.css",
+      "SourceId": "OnlineCakeShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\",
+      "BasePath": "_content/OnlineCakeShop",
+      "RelativePath": "css/payment.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\payment.css"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Documents\\GitHub\\OnlineCakeShop\\OnlineCakeShop\\wwwroot\\css\\register.css",
